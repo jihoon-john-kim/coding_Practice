@@ -1,0 +1,26 @@
+class Solution {
+    public int[] productExceptSelf(int[] nums) {
+        int[] answer = new int[nums.length];
+        int total = 1;
+        int zeroIndex = -1;
+        boolean isZero = false;
+        for(int i=0; i<nums.length; i++){
+            if(nums[i]!=0){
+                total *= nums[i];
+            }else if(!isZero && nums[i]==0){                
+                isZero = true;
+                zeroIndex = i;
+            }else if(isZero && nums[i]==0){      
+                return answer;
+            }
+        }
+        if(isZero){
+            answer[zeroIndex] = total;
+            return answer;
+        }
+        for(int i=0; i<nums.length; i++){
+            answer[i] = total/nums[i];
+        }
+        return answer;
+    }
+}
