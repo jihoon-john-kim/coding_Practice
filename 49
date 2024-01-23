@@ -3,14 +3,23 @@ class Solution {
         HashMap<String,List<String>> map = new HashMap<>();
         for(int i=0; i<strs.length; i++){
             char[] chars = strs[i].toCharArray();
-            Arrays.sort(chars);
-            String sortedStr = Arrays.toString(chars);
-            if(!map.containsKey(sortedStr)){
-                map.put(sortedStr, new ArrayList<String>());
-            }            
-            map.get(sortedStr).add(strs[i]);
+            //Arrays.sort(chars);
+            //String sorted = Arrays.toString(chars);
+            int[] lowercase = new int[26];
+            for(char c : chars){
+                lowercase[c-'a']++;
+            }
+            StringBuilder sb = new StringBuilder();
+            for(int count : lowercase){
+                sb.append(count);
+                sb.append('$');
+            }
+            String sorted = sb.toString();
+            if(!map.containsKey(sorted)){
+                map.put(sorted, new ArrayList<String>());
+            }
+            map.get(sorted).add(strs[i]);
         }
-
-        return new ArrayList<>(map.values());
+        return new ArrayList(map.values());
     }
 }
