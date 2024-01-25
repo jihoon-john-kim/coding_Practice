@@ -1,0 +1,34 @@
+class Solution {
+    public boolean isValidSudoku(char[][] board) {
+        int[] horizontal = new int[9];
+        int[] vertical = new int[9];
+        int[] box = new int[9];
+        for(int i=0; i<board.length; i++){
+            for(int j=0; j<board[0].length; j++){
+                if(board[i][j]!='.'){
+                    int pos = board[i][j]-1;
+                    int k = 1 << pos;
+                    
+                    //horizontal check
+                    if((horizontal[i] & k) > 0){
+                        return false;
+                    }
+                    horizontal[i] |= k;
+
+                    //vertical check
+                    if((vertical[j] & k) > 0){
+                        return false;
+                    }
+                    vertical[j] |= k;
+
+                    //box check
+                    if((box[(i/3)*3 + j/3] & k) > 0){
+                        return false;
+                    }
+                    box[(i/3)*3 + j/3] |= k;                    
+                }
+            }
+        }
+        return true;
+    }
+}
