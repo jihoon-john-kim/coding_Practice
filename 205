@@ -1,0 +1,31 @@
+class Solution {
+    public boolean isIsomorphic(String s, String t) {
+        HashMap<Character,Integer> Smap = new HashMap<>();
+        StringBuilder Ssb = new StringBuilder();
+        int index = 0;
+        for(char c : s.toCharArray()){
+            if(!Smap.containsKey(c)){
+                Smap.put(c, index++);
+            }
+            Ssb.append(Smap.get(c));
+            Ssb.append('#');
+        }
+        //System.out.println(Ssb.toString());
+        
+        HashMap<Character,Integer> Tmap = new HashMap<>();
+        StringBuilder Tsb = new StringBuilder();
+        index = 0;
+        for(char c : t.toCharArray()){
+            if(!Tmap.containsKey(c)){
+                Tmap.put(c, index++);
+            }
+            Tsb.append(Tmap.get(c));
+            Tsb.append('#');
+        }
+        //System.out.println(Tsb.toString());
+        if(Ssb.toString().equals(Tsb.toString())){
+            return true;
+        }
+        return false;
+    }
+}
