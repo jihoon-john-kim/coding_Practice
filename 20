@@ -1,0 +1,38 @@
+class Solution {
+    public boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
+        for(char c : s.toCharArray()){
+            // Round Curly Bracket
+            // no open just close
+            boolean isEmpty = stack.isEmpty();
+            if(isEmpty && (c == ')' || c == '}' || c == ']')){
+                return false;
+            }
+            // open - close not match
+            else if(!isEmpty && stack.peek()=='(' && (c == '}' || c == ']')){
+                return false;
+            }
+            else if(!isEmpty && stack.peek()=='{' && (c == ')' || c == ']')){
+                return false;
+            }
+            else if(!isEmpty && stack.peek()=='[' && (c == ')' || c == '}')){
+                return false;
+            }
+            // open - close match
+            else if(!isEmpty && stack.peek()=='(' && c == ')'){
+                stack.pop();
+            }
+            else if(!isEmpty && stack.peek()=='{' && c == '}'){
+                stack.pop();
+            }
+            else if(!isEmpty && stack.peek()=='[' && c == ']'){
+                stack.pop();
+            }
+            // add
+            else{
+                stack.add(c);
+            }
+        }
+        return stack.isEmpty();
+    }
+}
