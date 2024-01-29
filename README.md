@@ -9,6 +9,7 @@
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [Solution](/238) | 22/Jan/2024 |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Solution](/36) | 24/Jan/2024 |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) | [Solution](/205) | 29/01/2024 |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Solution](/3) | 29/01/2024 |
 
 
 | num | [TITLE](url) | [Solution](/num) | dd/mm/yyyy |
