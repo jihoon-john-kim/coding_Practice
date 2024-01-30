@@ -12,6 +12,8 @@
 | 3 * | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Solution](/3) | 29/01/2024 |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Solution](/20) | 29/01/2024 |
 | 208 * | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | [Solution](/208) | 29/01/2024 |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) | [Solution](/74) | 29/01/2024 |
+
 
 
 
