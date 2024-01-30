@@ -14,8 +14,6 @@
 | 208 * | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | [Solution](/208) | 29/01/2024 |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) | [Solution](/74) | 29/01/2024 |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/) | [Solution](/1046) | 29/01/2024 |
-
-
-
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) | [Solution](/43) | 29/01/2024 |
 
 | num | [TITLE](url) | [Solution](/num) | 29/01/2024 |
