@@ -16,5 +16,7 @@
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/) | [Solution](/1046) | 29/01/2024 |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) | [Solution](/43) | 29/01/2024 |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/description/) | [Solution](/78) | 29/01/2024 |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Solution](/234) | 30/01/2024 |
 
-| num | [TITLE](url) | [Solution](/num) | 29/01/2024 |
+
+| num | [TITLE](url) | [Solution](/num) | 30/01/2024 |
