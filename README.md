@@ -19,6 +19,7 @@
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | [Solution](/234) | 30/01/2024 |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/) | [Solution](/496) | 01/02/2024 |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/) | [Solution](/1475) | 01/02/2024 |
+| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/) | [Solution](/503) | 05/02/2024 |
 
 
-| num | [TITLE](url) | [Solution](/num) | 01/02/2024 |
+| num | [TITLE](url) | [Solution](/num) | 05/02/2024 |
