@@ -21,6 +21,7 @@
 | 1475 * | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/) | [Solution](/1475) | 01/02/2024 |
 | 503 * | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/) | [Solution](/503) | 05/02/2024 |
 | 94 * | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [Solution](/94) | 06/02/2024 |
+| 100 * | [Same Tree](https://leetcode.com/problems/same-tree/description/) | [Solution](/100) | 05/02/2024 |
 
 
 | num | [TITLE](url) | [Solution](/num) | 05/02/2024 |
